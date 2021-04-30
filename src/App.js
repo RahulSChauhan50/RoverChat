@@ -57,8 +57,8 @@ class App extends React.Component {
           <div id="chat">
             <br />
             <div id="messages" className="card">
-              {this.state.data.map((value) => (
-                <div id="textMessage" className="card-block">
+              {this.state.data.map((value, key) => (
+                <div key={key} id="textMessage" className="card-block">
                   {value.name + " : " + value.message}
                 </div>
               ))}
