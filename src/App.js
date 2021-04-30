@@ -52,7 +52,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div id="content">
-          <h1>WebSocket Client</h1>
+          <h1>RoverChat</h1>
           <div className="status"></div>
           <div id="chat">
             <br />
